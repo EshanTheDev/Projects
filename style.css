@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    color: #181818;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.spn{
+  color:#FD6E0A 
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 51px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.P-B{
+    color: var(--white-color, #FFF);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    
+    width: 100px;
+height: 40px;  
+border-radius: 5px;
+background: #FD6E0A;
+padding-x:34px;
+}
