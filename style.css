@@ -1,7 +1,13 @@
+
+.header{
+    background: #FFF8F3;
+    
+}
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .logo{
@@ -41,5 +47,49 @@ line-height: normal;
 height: 40px;  
 border-radius: 5px;
 background: #FD6E0A;
-padding-x:34px;
+}
+
+banner section
+.bnr0{
+    background-color: #FFF8F3;
+    max-width: 500px;
+}
+
+.bnr1{
+    color: var(--dark-02, #474747);
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.bnr2{
+    color: var(--dark-01, #181818);
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.bnr3{
+    color:#474747;
+font-size: 18px;
+font-style: normal;
+font-weight: 400px;
+line-height: normal;
+}
+.pb{
+    width: 150px;
+}
+.banner-main{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-around;
+
+}
+
+.hardybhai{
+    width: 400px;
 }
