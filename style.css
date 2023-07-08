@@ -121,3 +121,45 @@ text-align: center;
     justify-content: space-between;
     text-align: center;
 }
+
+/* what i do section */
+.bnr3-what-i-do{
+    display: flex;
+    width: 909px;
+    flex-direction: column;
+    flex-shrink: 0; 
+    color: #757575;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+align-items: center;
+margin:0 auto
+}
+
+/* about skills  */
+
+/* .skills{
+    display: flex;
+    padding: 30px;
+margin:0 auto;
+width: 150px
+gap: 30px;
+} */
+
+.skills{
+    display: flex;
+    gap: 30px;
+height: 377px;
+margin: 0 300px;
+flex-shrink: 0;
+align-items: center;
+background:white
+align-items:center;
+justify-content:space-between
+border:1px solid
+}
+.skill-p{
+    width: 150px;
+    font-size: medium;
+}
