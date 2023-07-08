@@ -137,15 +137,7 @@ align-items: center;
 margin:0 auto
 }
 
-/* about skills  */
 
-/* .skills{
-    display: flex;
-    padding: 30px;
-margin:0 auto;
-width: 150px
-gap: 30px;
-} */
 
 .skills{
     display: flex;
@@ -155,9 +147,8 @@ margin: 0 300px;
 flex-shrink: 0;
 align-items: center;
 background:white
-align-items:center;
-justify-content:space-between
-border:1px solid
+justify-content:space-between;
+border-2 px solid;
 }
 .skill-p{
     width: 150px;
@@ -209,4 +200,35 @@ justify-content: space-between;
 
 .ResumeDownload{
     text-align: center;
+}
+
+/* Footer  */
+Footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#FFF8F3; 
+    padding: 130px 200px;
+    margin-top: 80px;
+}
+.h3-f{
+    font-size: 25px;
+}
+
+.form input,textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border:1px solid
+
+}
+.btn{
+    color: var(--white-color, #FFF);
+text-align: center;
+background-color: #FD6E0A;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal
 }
